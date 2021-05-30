@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem; 
+}
+
+.header {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+
+form {
+    margin-top: 100px;
+}
+
+input[type=text]{
+    width: 60%;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.button {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.url {
+    padding: 8px;
+}
+
+input[type=submit]{
+    text-transform: uppercase;
+    margin: 40px 0;
+    padding: 15px 25px;
+}
+
+input[type=submit]:hover, .button:hover {
+    background-color: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+div.visible  {
+    display: block;
+}
+
+.shortURL {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.shortURL * {
+    margin: 10px 0;
+}
+
+
+.error {
+    margin-top: 10px;
+    color: rgb(128, 2, 2);
+}
+
+.copied {
+    color: rgb(2, 119, 2);
+}
+
+@media screen and (max-width: 500px){
+    input[type=text]{
+        width: 90%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
